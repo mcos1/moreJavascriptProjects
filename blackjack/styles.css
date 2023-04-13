@@ -1,0 +1,50 @@
+body {
+  /* background-image: url("https://media.istockphoto.com/id/897665238/photo/dark-green-felt-background-texture-close-up.jpg?s=612x612&w=0&k=20&c=7Ye3BodJIG8lI0MTIgpFIo7L35EyOUQEFQa4gwQFz6M=");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: top left; */
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: goldenrod;
+  font-size: 60px;
+}
+
+p {
+  color: white;
+  font-size: 30px;
+}
+
+#message-el {
+  font-style: italic;
+  font-weight: bold;
+}
+
+button {
+  color: #016f32;
+  width: 175px;
+  background-color: goldenrod;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+button:active {
+  opacity: 0.8;
+}
+
+.new-card {
+  background-color: lightcoral;
+  margin-top: 15px;
+}
+
+#cards-el {
+  flex-wrap: wrap;
+}
